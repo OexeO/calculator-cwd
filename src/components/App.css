@@ -32,6 +32,17 @@ This simple calculator application was made using reactjs with <3
   transform: translate(-50%, -50%);
 }
 
+@media only screen and (max-width: 768px) {
+  .calculator {
+    left: 50%;
+  }
+
+  .container {
+    display: none;
+  }
+
+}
+
 .display-toolbar {
   position: fixed;
   width: 100%;
